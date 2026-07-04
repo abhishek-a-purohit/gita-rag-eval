@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Psychologically calming palette — designed for someone under stress.
+  Research basis: soft sage greens reduce cortisol; warm ivory avoids
+  harsh contrast; muted teal-blue signals safety and openness.
+  No pure black, no high-contrast edges, no saturated colours.
+*/
+:root {
+  --bg-base:      #f5f2ed;   /* warm ivory — like morning light through linen */
+  --bg-card:      #ffffff;   /* clean white card surface */
+  --bg-raised:    #edeae4;   /* slightly deeper, for inputs */
+  --border:       #d8d2c7;   /* soft warm grey border */
+
+  --teal:         #4a8c7f;   /* muted teal — calm, trustworthy, healing */
+  --teal-dim:     #a8c9c3;   /* light teal for borders */
+  --teal-bg:      #eaf4f2;   /* near-white teal tint for active states */
+
+  --text-heading: #2d3f3b;   /* dark teal-grey for headings */
+  --text-body:    #4a4a42;   /* warm dark grey — readable, not harsh */
+  --text-muted:   #8f8c84;   /* muted grey for secondary text */
+  --text-light:   #b5b2a9;   /* very light for placeholders */
+
+  --sage:         #5d8c6e;   /* soft sage green — pass / good */
+  --sage-bg:      #edf6f0;   /* sage tint background */
+  --sage-border:  #a8ccb5;
+
+  --amber:        #b07b3a;   /* warm amber for warnings — not alarming */
+  --amber-bg:     #fdf5e8;
+  --amber-border: #d4b07a;
+
+  --rose:         #a05555;   /* soft rose for errors — muted, not alarming */
+  --rose-bg:      #fdf0f0;
+  --rose-border:  #d4a0a0;
+
+  --divider:      #c9a96e;   /* warm gold glyph divider — ✦ */
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-body);
+  font-family: 'Georgia', 'Times New Roman', serif;  /* serif feels grounding, not clinical */
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-base); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}

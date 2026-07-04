@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary meta -->
+    <title>Bhagavad Gita RAG — Retrieval-Augmented Generation Demo</title>
+    <meta
+      name="description"
+      content="A browser-based RAG system built on the Bhagavad Gita. Demonstrates TF-IDF and BM25 retrieval, citation enforcement, hallucination guard, and automated evaluation — no API key required."
+    />
+    <meta name="author" content="Gita RAG Demo" />
+    <meta name="theme-color" content="#4a8c7f" />
+
+    <!-- Open Graph -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:title"       content="Bhagavad Gita RAG — Retrieval-Augmented Generation Demo" />
+    <meta
+      property="og:description"
+      content="End-to-end RAG pipeline in the browser: TF-IDF + BM25 retrieval, citation-enforced generation, hallucination guard, and a 12-question automated eval suite. Zero backend required."
+    />
+    <meta property="og:locale"      content="en_US" />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card"        content="summary" />
+    <meta name="twitter:title"       content="Bhagavad Gita RAG Demo" />
+    <meta
+      name="twitter:description"
+      content="TF-IDF + BM25 retrieval, citation enforcement, hallucination guard, and automated evaluation — all running in-browser."
+    />
+
+    <!-- Canonical (update to deployed URL when published) -->
+    <!-- <link rel="canonical" href="https://your-deployed-url.com" /> -->
+
+    <!-- Preconnect to Anthropic API for live mode (no-op in mock mode) -->
+    <link rel="preconnect" href="https://api.anthropic.com" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
