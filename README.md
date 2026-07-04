@@ -6,7 +6,7 @@ citation-verified answer drawn directly from the Gita's 18 chapters, key verses,
 soulful life-topic passages.
 
 **No backend. No database. Runs entirely in your browser.**  
-Works immediately in **Mock mode** with zero setup, or connects to Claude in **Live mode**
+Works immediately in **Mock mode** with zero setup, or connects to Claude in **Live mode **
 with an Anthropic API key.
 
 ---
