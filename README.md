@@ -13,7 +13,7 @@ with an Anthropic API key.
 
 ## Live Demo
 
-> **[▶ Open the Soul](https://abhishek-a-purohit.github.io/gita-rag-eval/)**
+> **[▶ Open the Soulful App](https://abhishek-a-purohit.github.io/gita-rag-eval/)**
 
 ---
 
