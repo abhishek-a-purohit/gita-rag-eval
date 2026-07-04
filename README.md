@@ -323,7 +323,7 @@ jobs:
 ## Contributing
 
 Pull requests welcome. The knowledge base (`src/data/kb.js`) is the easiest
-place to start — every doc follows the same `{ id, title, text }` shape.
+place to start —: every doc follows the same `{ id, title, text }` shape.
 Add new life-topic passages, deepen existing ones, or expand the eval set.
 
 For questions, suggestions, or to share how the Gita helped you:
